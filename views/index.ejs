@@ -1,0 +1,124 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Main Page</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="stylesheets/SBU_IOT_1.css">
+ </head>
+
+<body style="background-image: url(images/image1.png) ;">
+    	<nav class="navbar navbar-default navbar-light navbar-fixed-top"  style="background-color: #bab164;">
+      <div class="container-fluid">
+      <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+            <!--  Code for the hamburger icon-->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+      <a class="navbar-brand" href="" id="stonybrook1"><b>StonyBrook IOT</b></a>
+      </div>
+
+        <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="stonybrook" role="button" aria-haspopup="true" aria-expanded="false"><b>Devices</b><span class="caret"></span></a>
+              <ul class="dropdown-menu" id="deviceactions">
+                <li><a href="" id="adddevice" style="color: green;"><b>Add Device</b></a></li>
+                <li><a href="" id="removedevices" style="color: red;"><b>Remove Devices</b></a></li>
+                <li><a href="" id="modifydevice" style="color: rgb(230, 151, 33);" ><b>Modify Device</b></a></li>
+                <li><a href="" id="existingdevices" style="color: rgb(0, 2, 128);"><b>Existing Devices</b></a></li>
+              </ul>
+            </li>
+
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="stonybrook" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Users</b><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="" id="adduser" style="color: green;" >Add User</a></li>
+                <li><a href="" id="deleteuser" style="color: red;">Remove User</a></li>
+                <li><a href="" id="modifyuser" style="color: rgb(230, 151, 33);">Modify User</a></li>
+                <li><a href="" id="existingusers" style="color: rgb(0, 2, 128);">Existing Users</a></li>
+            </ul>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="" id="logout" ><b>Log Out</b></a></li>
+          </ul>
+        </ul>
+
+       </div><!-- navbar-collapse -->
+      </div><!-- container-fluid -->
+    </nav>
+<p></p><p></p><p></p><br><br><br>
+    <div class="container">
+      <div class="jumbotron1" id="usertypes" style="color: #000000;">
+      <h2><b>User Types:</b></h2>
+      <ul>
+          <li><b><font size="+1">Faculty</font></b></li>
+          <li><b><font size="+1">Staff</font></b></li>
+          <li><b><font size="+1">Student</font></b></li>
+          
+    </ul>
+    </div>
+    </div>
+
+    <div class="container" >
+      <div class="jumbotron1" style="color: #000000;">
+      <h2><b>Device Details:</b></h2>
+      <ul>
+        <li><b><font size="+1">Rooms</font></b>
+          <ul>
+            <li ><b><font size="+1">Frey Hall</font></b></li>
+            <li><b><font size="+1">Student Activity Center</font></b></li>
+            <li><b><font size="+1">Light Engineering</font></b></li>
+          </ul>
+      </li>
+      <li><b><font size="+1">Devices</font></b>
+        <ul>
+          <li><font size="+1"><b>Light</b></font></li>
+          <li><b><font size="+1">Fan</font></b></li>
+          <li><b><font size="+1">Printer</font></b></li>
+          <li><b><font size="+1">Air Conditioning</font></b></li>
+          <li><b><font size="+1">Heater</font></b></li>
+          <li><b><font size="+1">Projector</font></b></li>
+          <li><b><font size="+1">Lab Door</font></b></li>
+         
+        </ul>
+    </li>
+      </ul>
+    </div>
+    </div>
+
+    <!-- <table id="allusers" border="">
+      <thead>
+       <tr> <th>User Name</th> <th>Qty</th></tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table> -->
+<!-- <div class="" id="ttbl">
+
+    <table id="table" border="">
+       <tr> <th>User Name</th> <th>Qty</th></tr>
+    </table>
+</div> -->
+    <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
+
+    <script
+    src="http://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src='javascripts/SBU_IOT_1.js'></script>
+
+  </body>
+  </html>

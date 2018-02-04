@@ -1,0 +1,104 @@
+
+/* Full-width inputs */
+input[type=email], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #347c46;
+    box-sizing: border-box;
+}
+/* Full-width inputs */
+#loginbutton {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+.loginbutton {
+    background-color: #ce4040;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* Add a hover effect for buttons */
+.loginbutton:hover {
+    opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 35%;
+    border-radius: 20%;
+
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+#login
+{
+border: 1px solid #ccc;
+color: #347c46;
+border-radius: 1%;
+align-items: center;
+align-self: center;
+}
+
+#blue
+{
+  color: #00438c;
+}
+
+#green
+{
+    color: #347c46;
+}
+
+#stonybrook
+{
+  color: #821b1b;
+}
+#logout{
+    color: #821b1b;
+  }
+#stonybrook1
+{
+  color: #821b1b;
+}
+
+.uu{
+
+background-color: green;
+}
+.jumbotron1{
+
+    position:relative;
+    float:center;
+   
+    font-family: verdana;
+    
+    padding-left: 400px;
+
+}
+table.dataTable.select tbody tr,
+table.dataTable thead th:first-child {
+  cursor: pointer;
+}

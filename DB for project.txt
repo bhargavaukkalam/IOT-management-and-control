@@ -1,0 +1,35 @@
+[
+    {
+      "Firstname": "Shravan",
+      "Lastname": "Chitragar",
+      "category": "Student",
+      "ID": 111579743
+     },
+    {
+      "Firstname": "Venkat",
+      "Lastname": "Bhagawat",
+      "category": "Professor",
+      "ID": 111579732
+     },
+   {
+      "Firstname": "Bhargav",
+      "Lastname": "Ukkalam",
+      "category": "Guest",
+      "ID": 111579743
+     }
+]
+
+
+
+
+
+    {
+      "Room": 101,
+      "name": "Frey Hall",
+      "device": [{
+                  "name": "TubeLight",
+ 		  "status":"ON"   
+                 }],
+      "ID": 1
+     }
+    

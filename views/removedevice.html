@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Remove_Device</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/Users/verb/Documents/WebDeveloper/SBU_IOT/mainpage.html" id="stonybrook">Back</a>
+
+
+        <form class="blue" id="form_removedevice" action="" method="post">
+
+
+            <div class="container">
+            <div class="jumbotron">
+            <h2><em>Please Enter Device Details</em></h2>
+            <p></p><p></p><br>
+            <div class="blue" id="devicecategory">
+                  <label for="userem">Building Name:</label>
+                  <select id="ddl" onchange="configureDropDownLists(this,document.getElementById('ddl2'))" class="form-control" name="buildingname" >
+                      <option value=""></option>
+                      <option value="Frey Hall">Frey Hall</option>
+                      <option value="Student Activity Center">Student Activity Center</option>
+                      <option value="Light Engineering">Light Engineering</option>
+                 </select>
+           </div>
+
+
+        <div class="" id="roomno">
+                <label for="userem">Room No:</label>
+                <select id="ddl2" class="form-control" name="room">
+                </select>
+        </div>
+
+        <!-- this gets updated based on "Building Name" -->
+
+
+          <label for="userem">Device Id:</label>
+          <input type="text" class="form-control" name="deviceid" placeholder="E.g. lig234ac" required><br>
+
+        <input type="submit" class="btn btn-outline-danger" name="deviceRemove" value="Remove">
+      </div>
+
+    </div>
+    </form>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+    </script>
+    <script src='C:\Project\NodeJS\IOTmanagement\public\javascripts\SBU_IOT_1.js'>
+  </script>
+<link rel="stylesheet" href="C:\Project\NodeJS\IOTmanagement\public\stylesheets\addremovecss.css">
+</body>
+</html>

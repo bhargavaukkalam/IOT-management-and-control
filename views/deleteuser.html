@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add_User</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="/Users/verb/Documents/WebDeveloper/SBU_IOT/mainpage.html" id="stonybrook">Back</a>
+
+<form class="deleteuserform" id="form_deleteuser" action="" method="post">
+
+    <div class="container">
+    <div class="jumbotron">
+
+    <h2><em>Please Enter User Details</em></h2>
+        <label for="userem">First Name:</label>
+        <input type="text" id="firstname"class="form-control" name="firstname" placeholder="E.g.Jack" required>  <p></p>
+        <label for="userem">Last Name:</label>
+        <input type="text" class="form-control" name="lastname" placeholder="E.g.Torrance" required>  <p></p>
+
+
+    <label for="userem">User Category:</label>
+    <select name="usercategory" class="form-control" type="text">
+          <option value=""></option>
+          <option value="Faculty">Faculty</option>
+          <option value="Staff">Staff</option>
+          <option value="Graduate Student">Grad Student</option>
+          <option value="Undergraduate Student">Undergrad Student</option>
+        </select>
+
+        <p></p>
+        <label for="userem">Email Id:</label>
+        <input type="email" name="emailid" value="" class="form-control" placeholder="E.g. Jack.Torrance@stonybrook.edu" required>
+        <p></p>
+        <label for="userem">University Id:</label>
+        <input type="number" class="form-control" name="sbuid" placeholder="E.g.111000217" required>
+
+        <p></p>
+
+             <input type="radio" class="usergender" name="gender" value="Male" required> Male <br>
+             <input type="radio"   class="usergender" name="gender" value="Female" required> Female <br>
+             <input type="radio"  class="usergender" name="gender" value="Other" required> Other<br><br>
+             <!-- <input type="number" name="block" value="0" hidden=""> -->
+             <input type="submit" class="btn btn-outline-danger" name="delete" value="Delete">
+      </form>
+
+      </div>
+    </div>
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  </script>
+  <script src='SBU_IOT_1.js'>
+  </script>
+</body>
+</html>

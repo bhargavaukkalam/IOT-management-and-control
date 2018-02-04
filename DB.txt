@@ -1,0 +1,26 @@
+[{
+"Room": 101,
+"name": "Frey Hall",
+"device":[{
+	   "name":"Fan",
+	   "status": "ON"
+},{
+	   "name":"Light",
+	   "status": "OFF"
+}
+],
+"ID": 1
+},
+{
+"Room": 201,
+"name": "Frey Hall",
+"device":[{
+	   "name":"Xerox machine",
+	   "status": "ON"
+},{
+	   "name":"Light",
+	   "status": "ON"
+}
+],
+"ID": 1
+}]

@@ -1,0 +1,117 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Main page</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="">
+ </head>
+
+<body>
+
+
+    	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+      <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+            <!--  Code for the hamburger icon-->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+      <a class="navbar-brand" href="/Users/verb/Documents/WebDeveloper/SBU_IOT/loginpage.html" id="stonybrook">StonyBrook IOT</a>
+      </div>
+
+        <!-- Anything inside of collapse navbar-collapse goes into the "hamburger" -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="stonybrook"role="button" aria-haspopup="true" aria-expanded="false">Devices<span class="caret"></span></a>
+              <ul class="dropdown-menu" id="deviceactions">
+                <li><a href="localhost:3000/devices/adddevice" id="adddevice">Add Device</a></li>
+                <li><a href="" id="removedevices">Remove Devices</a></li>
+                <li><a href="" id="modifydevice">Modify Device</a></li>
+                <li><a href="" id="existingdevices">Existing Devices</a></li>
+              </ul>
+            </li>
+
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" id="stonybrook" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="" id="adduser">Add User</a></li>
+                <li><a href="" id="removeusers">Remove User</a></li>
+                <li><a href="" id="modifyuser">Modify User</a></li>
+                <li><a href="" id="existingusers">Existing Users</a></li>
+            </ul>
+            </li>
+        </ul>
+       </div><!-- navbar-collapse -->
+      </div><!-- container-fluid -->
+    </nav>
+
+    <div class="container" >
+      <div class="jumbotron" id="usertypes">
+      <h2>User Types:</h2>
+      <ul>
+          <li>Faculty</li>
+          <li>Staff</li>
+          <li>Graduate Students</li>
+          <li>Undergraduate Students</li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron">
+      <h2>Device Details:</h2>
+      <ul>
+        <li>Rooms
+          <ul>
+            <li><i>Frey Hall</i></li>
+            <li><i>Student Activity Center</i></li>
+            <li><i>Light Engineering</i></li>
+          </ul>
+      </li>
+      <li>Devices
+        <ul>
+          <li><i>Light</i></li>
+          <li><i>Air Conditioning</i></li>
+          <li><i>Fan</i></li>
+          <li><i>Heater</i></li>
+          <li><i>Door</i></li>
+        </ul>
+    </li>
+      </ul>
+    </div>
+    </div>
+
+    <!-- <table id="allusers" border="">
+      <thead>
+       <tr> <th>User Name</th> <th>Qty</th></tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table> -->
+<!-- <div class="" id="ttbl">
+
+    <table id="table" border="">
+       <tr> <th>User Name</th> <th>Qty</th></tr>
+    </table>
+</div> -->
+    <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
+
+    <script
+    src="http://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src='SBU_IOT_1.js'></script>
+
+  </body>
+  </html>

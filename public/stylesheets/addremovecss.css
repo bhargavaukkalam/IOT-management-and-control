@@ -1,0 +1,31 @@
+.blue
+{
+  color: #00438c;
+}
+#stonybrook
+{
+  color: #b7ae2c;
+}
+
+#stonybrook1
+{
+  color: #821b1b;
+}
+
+tbody
+{
+  color: white ;
+  border-block-end-color: black;
+}
+#myInput {
+  
+  
+  width: 50%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+
+
